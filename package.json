@@ -1,0 +1,33 @@
+{
+  "name": "react-javascript",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "start-backend": "node server.js",
+    "start": "concurrently \"npm run dev\" \"npm run start-backend\"",
+    "start-prod": "node server.js",
+    "build": "vite build"
+  },
+  "dependencies": {
+    "@adobe/pdfservices-node-sdk": "^4.1.0",
+    "axios": "^1.11.0",
+    "canvas": "^3.2.0",
+    "dotenv": "^17.2.2",
+    "express": "^4.21.2",
+    "multer": "^1.4.5-lts.1",
+    "natural": "^8.1.0",
+    "openai": "^5.18.1",
+    "pdf-parse": "^1.1.1",
+    "pdfjs-dist": "^5.4.149",
+    "react": "^18.3.0",
+    "react-dom": "^18.3.0",
+    "react-pdf": "^10.1.0",
+    "uuid": "^11.1.0",
+    "vite": "^7.1.4"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.3.2",
+    "concurrently": "^9.0.1"
+  }
+}
